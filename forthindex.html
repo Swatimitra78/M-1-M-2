@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inline block inline-block </title>
+
+
+    <style>
+        div{
+            background-color: brown;
+            font-size: 36px;
+            height: 200px;
+            width: 200px;
+            outline: 2px black solid;
+            margin: 30px;
+
+            display: inline; /* display: inline  1.for elements having inline display , cannt define height or width  2.it automatically adjust its height and width according to the content */
+
+            
+        }
+
+        h1{
+            background-color: brown;
+            font-size: 36px;
+            height: 200px;
+            width: 200px;
+            outline: 2px black solid;
+            margin: 30px;
+
+
+            display: block;  /* display: block 1.for elements having block display , can definn height and width 2. block elemtns always start with on a new line 3.by default it occupie full line space */
+
+
+        }
+
+
+        h2{
+            background-color: brown;
+            font-size: 36px;
+            height: 200px;
+            width: 200px;
+            outline: 2px black solid;
+            margin: 30px;
+
+            
+            display: inline-block;  /* display:inline-block; 1. inline elements does not start with a  new line 2. block level element , height and width can be defined  */
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <div>123</div>
+    <div>2</div>
+    <div>3</div>
+    
+
+    <h1>1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+
+
+    <h2>1</h2>
+    <h2>2</h2>
+    <h2>3</h2>
+
+</body>
+</html>
